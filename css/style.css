@@ -1,0 +1,154 @@
+/* GENERAL STYLES*/
+body{
+  font-family:  monospace, sans-serif;
+  font-size: 100%;
+}
+.container{
+  margin: 0 auto;
+  width: 960px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+p{
+  font-size: 13px;
+  line-height: 1.3em;
+}
+/* HEADER*/
+.header{
+  padding:40px 0;
+  background-color: #2f343f;
+}
+.header h1, .header h2 {
+  font-size: 25px;
+  color: white;
+  text-align:center;
+}
+
+/*NAVIGATION*/
+.page-navigation{
+  background-color: #222;
+  border-color: #101010;
+  min-height: 64px;
+}
+.page-navigation li{
+  float:left;
+  width:100px;
+}
+.page-navigation a{
+  display: block;
+  color: #9d9d9d;
+  line-height: 4.60em;;
+  font-weight:bold;
+  text-align:center;
+  font-size: 14px;
+  font-stretch: expanded;
+  letter-spacing: 1px;
+}
+.page-navigation li a:hover{
+  color:white;
+  background-color: black;
+}
+/*LOGIN FORM*/
+.login{
+  padding: 15px 0;
+  float: right;
+}
+.login input[type="text"],
+.login input[type="password"]{
+  padding: 8px;
+  width: 180px;
+  font-size: 13px;
+  margin-right: 5px;
+  border: 1px solid transparent;
+  border-radius:5px;
+  outline:none;
+}
+.login input[type="submit"]{
+  font-size: 13px;
+  padding: 8px 15px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+.login input[type="submit"]:hover,
+button:hover{
+  background-color:darkgrey;
+  color: white;
+}
+/*MAIN PART */
+.collections{
+  overflow:auto;
+}
+.collection-title{
+  padding-bottom:5px;
+  border-bottom: 1px solid #777;
+  font-size:36px;
+}
+.collection-title small{
+  color:#777;
+  font-size:70%;
+}
+.collection-item-outer{
+  display:inline-block;
+  float:left;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 33.33%;
+  box-sizing:border-box;
+}
+.collections > div:first-child{
+  padding-left:0;
+  padding-right: 5px;
+}
+.collections > div:last-child{
+  padding-left:5px;
+  padding-right: 0;
+}
+.collections > div:nth-child(2){
+  padding-left:2.5px;
+  padding-right: 2.5px;
+}
+.collection-item{
+  border: 1px solid #959595;
+  /*min-height: 540px;*/
+}
+.collection-item img,
+.collection-item iframe{
+  width: 100%;
+}
+.collection-text{
+  padding: 0 20px 20px 20px;
+}
+.collection-text h3{
+color: yellowgreen;
+font-size: 20px;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+.collection-text p{
+height: 85px;
+overflow:hidden;
+}
+.collection-text button{
+padding: 10px;
+font-size:15px;
+border: 1px solid transparent;
+border-radius:5px;
+outline:none;
+}
+/* FOOTER*/
+.footer{
+  background-color: #2f343f;
+  color:white;
+  padding: 20px 0;
+  margin-top: 30px;
+  text-align: center;
+}
